@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.git/
+outputs/
+postgres_data/
+redis_data/
+neo4j_data/
+neo4j_logs/
+milvus_data/
+minio/
+etcd/
+finetune_demo/
+ner_result/
+img/

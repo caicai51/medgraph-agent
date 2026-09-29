@@ -1,0 +1,5 @@
+{"query_id":"medical_cold","query":"感冒了怎么办","expected_any":["感冒"],"forbidden":["本病历仅用于","初步诊断","高血压病2级"],"must_refuse":false,"category":"general_medical"}
+{"query_id":"medical_hypertension_diet","query":"高血压患者饮食注意什么","expected_any":["高血压","低盐"],"forbidden":["本病历仅用于","初步诊断"],"must_refuse":false,"category":"general_medical"}
+{"query_id":"medical_diabetes_exam","query":"糖尿病需要做哪些检查","expected_any":["检查","血糖"],"forbidden":["本病历仅用于","初步诊断"],"must_refuse":false,"category":"general_medical"}
+{"query_id":"patient_blood_pressure","query":"张明华的血压","expected_any":["150/95"],"forbidden":[],"must_refuse":false,"category":"patient_record"}
+{"query_id":"unknown_medicine","query":"火星感冒药怎么吃","expected_any":[],"forbidden":["感冒灵颗粒","利巴韦林"],"must_refuse":true,"category":"no_evidence"}

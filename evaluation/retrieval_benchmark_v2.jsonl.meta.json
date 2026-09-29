@@ -1,0 +1,14 @@
+{
+  "dataset": "evaluation/retrieval_benchmark_v2.jsonl",
+  "source_data_hash": "099ba82332b998d9cbfd8ba013149605aa08061bc955a13a2b772feefa8cbd3c",
+  "seed": 20260910,
+  "case_count": 96,
+  "validation_count": 72,
+  "test_count": 24,
+  "label_type": "weak",
+  "limitations": "Labels derive from source disease/type metadata and have not been reviewed by clinicians.",
+  "source_count": 8808,
+  "invalid_source_count": 0,
+  "duplicate_count": 14616,
+  "empty_text_count": 0
+}

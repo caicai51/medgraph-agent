@@ -1,0 +1,15 @@
+{
+  "source_data_version": "medical_new_2.json",
+  "source_data_hash": "099ba82332b998d9cbfd8ba013149605aa08061bc955a13a2b772feefa8cbd3c",
+  "expected_count": 264920,
+  "document_count": 264920,
+  "fts_count": 264920,
+  "tokenizer": "jieba",
+  "engine": "sqlite_fts5_bm25",
+  "source_count": 8808,
+  "invalid_source_count": 0,
+  "duplicate_count": 14616,
+  "empty_text_count": 0,
+  "elapsed_seconds": 91.4,
+  "status": "complete"
+}

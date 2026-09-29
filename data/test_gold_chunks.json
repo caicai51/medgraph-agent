@@ -1,0 +1,52 @@
+[
+  {
+    "query": "感冒了怎么办？",
+    "relevant_chunk_ids": [
+      "leaf_0",
+      "leaf_1",
+      "leaf_2"
+    ],
+    "relevant_content": [
+      "感冒是一种常见的呼吸道疾病...",
+      "感冒的治疗以对症治疗为主...",
+      "常用药物包括对乙酰氨基酚..."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "发烧38度怎么处理？",
+    "relevant_chunk_ids": [
+      "leaf_3",
+      "leaf_4"
+    ],
+    "relevant_content": [
+      "发烧38度属于中度发热...",
+      "可以采取物理降温..."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "如何预防流感？",
+    "relevant_chunk_ids": [
+      "leaf_5",
+      "leaf_6"
+    ],
+    "relevant_content": [
+      "接种流感疫苗是预防流感的有效方法...",
+      "保持良好的个人卫生习惯..."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "高血压患者饮食注意什么？",
+    "relevant_chunk_ids": [
+      "leaf_7",
+      "leaf_8"
+    ],
+    "relevant_content": [
+      "高血压患者应该限制钠盐摄入...",
+      "推荐DASH饮食模式..."
+    ],
+    "difficulty": "hard"
+  }
+]

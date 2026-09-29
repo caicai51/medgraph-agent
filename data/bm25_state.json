@@ -1,0 +1,29 @@
+{
+  "medical_qa_vectors": {
+    "vocabulary": {},
+    "doc_freq": {},
+    "total_docs": 0,
+    "corpus": [],
+    "corpus_ids": [],
+    "tokenized_corpus": [],
+    "updated_at": "2026-09-10T18:35:12.324164"
+  },
+  "scenario_memory_vectors": {
+    "vocabulary": {},
+    "doc_freq": {},
+    "total_docs": 0,
+    "corpus": [],
+    "corpus_ids": [],
+    "tokenized_corpus": [],
+    "updated_at": "2026-09-10T18:35:12.324164"
+  },
+  "semantic_memory_vectors": {
+    "vocabulary": {},
+    "doc_freq": {},
+    "total_docs": 0,
+    "corpus": [],
+    "corpus_ids": [],
+    "tokenized_corpus": [],
+    "updated_at": "2026-09-10T18:35:12.324164"
+  }
+}

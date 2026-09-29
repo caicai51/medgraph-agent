@@ -1,0 +1,50 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+NULL
+
+# Logs and generated reports
+*.log
+outputs/
+data/build_records/
+
+# Runtime databases
+postgres_data/
+redis_data/
+neo4j_data/
+neo4j_logs/
+milvus_data/
+milvus_config/
+minio/
+etcd/
+dump.rdb
+
+# Generated indexes
+data/bm25/*.sqlite
+data/bm25/*.sqlite-shm
+data/bm25/*.sqlite-wal
+
+# Downloadable model caches and local weights
+model_cache/
+model/chinese-roberta-wwm-ext/
+model/best_roberta_rnn_model_ent_aug.pt
