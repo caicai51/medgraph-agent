@@ -5,7 +5,7 @@ import os
 import random
 from collections import defaultdict
 
-from migrate_embeddings import DEFAULT_SOURCE, build_medical_documents, hash_file
+from scripts.migrate_embeddings import DEFAULT_SOURCE, build_medical_documents, hash_file
 
 TEMPLATES = {
     "疾病症状": ("{disease}发作时身体可能出现哪些表现？", "symptom"),

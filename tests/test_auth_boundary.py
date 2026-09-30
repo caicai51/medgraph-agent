@@ -4,7 +4,7 @@ import hmac
 import unittest
 from types import SimpleNamespace
 
-from streaming_api import resolve_user_id_from_request
+from app.streaming_api import resolve_user_id_from_request
 
 
 class AuthBoundaryTests(unittest.TestCase):

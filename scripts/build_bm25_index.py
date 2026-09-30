@@ -9,7 +9,7 @@ import time
 
 import jieba
 
-from migrate_embeddings import DEFAULT_SOURCE, build_medical_documents, hash_file
+from scripts.migrate_embeddings import DEFAULT_SOURCE, build_medical_documents, hash_file
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_OUTPUT = os.path.join(BASE_DIR, "data", "bm25", "medical_qa_vectors_v2.sqlite")

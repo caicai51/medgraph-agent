@@ -14,7 +14,7 @@ import numpy as np
 from pymilvus import Collection, connections, utility
 from sentence_transformers import SentenceTransformer
 
-from evaluate_retrieval import bm25_search, dense_search, percentile, resolve_model, rerank, rrf
+from scripts.evaluate_retrieval import bm25_search, dense_search, percentile, resolve_model, rerank, rrf
 
 
 def unique_rows(rows):

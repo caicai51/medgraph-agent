@@ -754,7 +754,7 @@ def stream_rag(query, session_id, use_local=True, local_model="qwen2.5:7b", mode
                         data_buffer = data_str
 
     except requests.exceptions.ConnectionError:
-        yield {"type": "error", "content": "无法连接后端服务，请确认已运行 streaming_api.py"}
+        yield {"type": "error", "content": "无法连接后端服务，请确认已运行 app.streaming_api.py"}
     except Exception as e:
         yield {"type": "error", "content": f"请求异常: {str(e)}"}
 
@@ -1149,7 +1149,7 @@ def main():
                 st.session_state.api_available = check_api_health()
                 st.rerun()
         if not st.session_state.api_available:
-            st.warning("⚠️ 后端 API 未连接，请运行 `python streaming_api.py`")
+            st.warning("⚠️ 后端 API 未连接，请运行 `uvicorn app.streaming_api:app`")
             return
     
     # 渲染侧边栏

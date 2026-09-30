@@ -71,13 +71,14 @@ Neo4j KG       Milvus Dense + BM25
 ## 核心代码
 
 ```text
-streaming_api.py                 FastAPI、SSE、会话和上传接口
-webui_streaming.py               Streamlit 演示界面
+app/streaming_api.py             FastAPI、SSE、会话和上传接口
+app/webui_streaming.py           Streamlit 演示界面
 vector_db/unified_retriever.py   意图路由、并行检索、RRF、重排、Prompt
 vector_db/vector_manager.py      Milvus、BM25、用户过滤与降级
-file_handler.py                  文档解析、病历结构化、患者图谱写入
-session_storage.py               PostgreSQL 会话持久化
-cache_layer.py                   Redis 缓存
+app/file_handler.py              文档解析、病历结构化、患者图谱写入
+app/session_storage.py           PostgreSQL 会话持久化
+app/cache_layer.py               Redis 缓存
+scripts/                         数据导入、索引构建与离线评测脚本
 evaluation/                      固定离线评测集
 tests/                           指标、权限、并行编排和降级测试
 ```
@@ -131,14 +132,6 @@ LOCAL_MODEL_NAME=qwen2.5:7b
 ```bash
 python -m unittest discover -s tests -v
 ```
-
-## 面试演示建议
-
-1. 询问“感冒有哪些症状和常用药”，观察 KG 与向量双路召回。
-2. 询问相似疾病问题，展示疾病实体过滤和跨疾病降权。
-3. 上传测试病历，再查询“我的血压和诊断是什么”，展示个人病历链路。
-4. 使用另一个 `user_id` 查询同一病历，展示权限隔离。
-5. 停止 Redis 或 Neo4j，展示自动降级与 RAG trace。
 
 ## 说明
 

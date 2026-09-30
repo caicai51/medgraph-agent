@@ -44,8 +44,8 @@ dashscope.api_key = os.getenv("DASHSCOPE_API_KEY", "")
 os.environ["LLM_BASE_URL"] = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 # 数据层
-from session_storage import SessionStorage
-from cache_layer import CacheLayer
+from app.session_storage import SessionStorage
+from app.cache_layer import CacheLayer
 
 
 @asynccontextmanager
@@ -689,7 +689,7 @@ def _build_fallback_answer(merged_results, entities, query):
 
 from fastapi import UploadFile, File, Form
 from fastapi.responses import Response
-from file_handler import (
+from app.file_handler import (
     process_uploaded_file,
     detect_file_type,
     get_collection_for_type,

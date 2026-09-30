@@ -1,6 +1,6 @@
 import unittest
 
-from retrieval_diagnostics import ndcg_at_k, stage_metrics, unique_rows
+from scripts.retrieval_diagnostics import ndcg_at_k, stage_metrics, unique_rows
 
 
 def row(relevant, retrieved):

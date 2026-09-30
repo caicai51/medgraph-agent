@@ -13,7 +13,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from file_handler import parse_medical_record, import_patient_to_neo4j
+from app.file_handler import parse_medical_record, import_patient_to_neo4j
 
 
 def main():
