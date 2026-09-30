@@ -138,7 +138,3 @@ python -m unittest discover -s tests -v
 - 指标来自项目固定离线评测集，用于比较检索策略迭代效果。
 - 本地演示允许使用 `X-User-Id`；生产部署应关闭 `ALLOW_UNTRUSTED_USER_ID` 并接入签名认证代理。
 - 完整数据构建可将 `KG_IMPORT_LIMIT` 和 `VECTOR_IMPORT_LIMIT` 设置为 `0`。
-
-## License
-
-MIT
